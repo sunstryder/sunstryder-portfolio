@@ -28,6 +28,14 @@ export default {
       type: 'array',
       title: 'Tools',
       of: [{ type: 'reference', to: [{ type: 'tool' }] }]
+    },
+    {
+      name: 'date',
+      type: 'date',
+      title: 'Date',
+      options: {
+        dateFormat: 'YYYY',
+      }
     }
   ]
 }
